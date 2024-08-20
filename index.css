@@ -1,0 +1,70 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1523697753094-d89aa5119fc0?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    margin: 0;
+    height: 100dvh;
+}
+
+.overlay {
+    width: 100dvw;
+    height: 100dvh;
+    position: absolute;
+    z-index: 0;
+    opacity: 1;
+    backdrop-filter: blur(4px);
+    background-color: #111c;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 2rem;
+    z-index: 1;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.highlight {
+    font-weight: 100;
+    font-size: 28px;
+    opacity: 0.5;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 400;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #1877F2;
+    color: white;
+    border-radius: 50px;
+}
+
+#save-btn {
+    background: #1DB954;
+    color: #111;
+    border-radius: 50px;
+}
+
